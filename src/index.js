@@ -20,6 +20,34 @@
         display: flex;
         align-items: center;
     }
+
+    @media screen and (max-width: 768px) {
+        .logo-container img {
+            width: auto;
+            height: auto;
+        }
+
+        .logo_container__name,
+        .logo_container__logo {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+        .logo_container__text,
+        .logo_container__name {
+            display: none;
+        }
+        .logo_container__logo {
+            display: inline;
+        }
+        .logo-container {
+            margin: auto;
+            margin-left: 13px;
+            position: inherit;
+            left: auto;
+        }
+    }
 </style>
 
 
@@ -27,7 +55,7 @@
     <div>
         <a href="/home" class="logo_container__link">
             <span class="logo_container__text">корпоративный портал</span>
-            <img class="logo_container__logo"
+            <img  class="logo_container__logo"
                 src="design/default/images/logo1.png"
             />
             <span class="logo_container__name">WebsoftHCM</span>
