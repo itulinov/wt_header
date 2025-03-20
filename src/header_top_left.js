@@ -2,17 +2,30 @@
     .logo-container {
         height: 72px;
     }
+    .block-user-info a,
+    .block-user-info a:hover {
+        color: #313a4a;
+        font-size: 15px;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+    }
+    .userphoto,
+    .user-photo {
+        cursor: pointer;
+    }
 
     .logo-container > div {
         display: flex;
         height: 100%;
     }
-    
     .logo-container > div > a > .logo_container__text {
         opacity: .7;
         padding-right: 14px;
     }
-    
+    .logo-container > div > a > .logo_container__logo {
+        margin-right: 4px;
+    }
     .logo-container > div > .logo_container__link {
         font-weight: 500;
         font-size: 24px;
@@ -26,7 +39,6 @@
             width: auto;
             height: auto;
         }
-
         .logo_container__name,
         .logo_container__logo {
             display: none;
