@@ -34,6 +34,12 @@
         align-items: center;
     }
 
+    @media screen and (max-width: 1176px) {
+        .page-content{
+            width: auto;
+        }
+    }
+
     @media screen and (max-width: 768px) {
         .logo-container img {
             width: auto;
